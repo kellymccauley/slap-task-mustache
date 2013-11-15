@@ -1,0 +1,33 @@
+{
+  "name": "slap-task-mustache",
+  "version": "0.1.0",
+  "description": "A slap task that applies mustache templates.",
+  "main": "slap-task-mustache.js",
+  "scripts": {
+    "test": "node test/run_specs.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kellymccauley/slap-task-mustache.git"
+  },
+  "keywords": [
+    "slap"
+  ],
+  "author": "Kelly A. McCauley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kellymccauley/slap-task-mustache/issues"
+  },
+  "homepage": "https://github.com/kellymccauley/slap-task-mustache",
+  "dependencies": {
+    "slap": "kellymccauley/node-slap",
+    "debug": "~0.7.4",
+    "shelljs": "~0.2.6",
+    "mustache": "~0.7.3"
+  },
+  "devDependencies": {
+    "should": "~2.1.0",
+    "mocha": "~1.14.0",
+    "glob": "~3.2.7"
+  }
+}
